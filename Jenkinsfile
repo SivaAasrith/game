@@ -7,7 +7,7 @@ pipeline {
         stage('Build Frontend') {
             steps {
                 dir('frontend') {
-                    bat "echo VITE_API_BASE=http://localhost:2005/api > .env.production"
+                    bat "echo VITE_API_BASE=http://localhost:9090/gamingportalapi/api > .env.production"
                     bat 'npm install'
                     bat 'npm run build'
                 }
