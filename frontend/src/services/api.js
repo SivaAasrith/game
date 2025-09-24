@@ -30,4 +30,12 @@ export async function signup(payload) {
   return handleResponse(res)
 }
 
+export async function fetchGames() {
+  const res = await fetch(`${API_BASE}/games`, {
+    method: 'GET',
+    headers
+  })
+  return handleResponse(res)
+}
+
 

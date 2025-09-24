@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import { signup } from '../services/api'
+import { setUser } from '../utils/storage'
 
 export default function Signup() {
   const navigate = useNavigate()
@@ -24,7 +25,7 @@ export default function Signup() {
     try {
       const payload = { ...form, age: Number(form.age) }
       const user = await signup(payload)
-      sessionStorage.setItem('user', JSON.stringify(user))
+      setUser(user)
       navigate('/dashboard')
     } catch (err) {
       setError(err.message || 'Signup failed')

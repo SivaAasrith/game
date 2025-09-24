@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import { login } from '../services/api'
+import { setUser } from '../utils/storage'
 
 export default function Login() {
   const navigate = useNavigate()
@@ -15,7 +16,7 @@ export default function Login() {
     setError('')
     try {
       const user = await login({ email, password })
-      sessionStorage.setItem('user', JSON.stringify(user))
+      setUser(user)
       navigate('/dashboard')
     } catch (err) {
       setError(err.message || 'Login failed')
