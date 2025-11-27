@@ -20,15 +20,15 @@ export default function Events() {
   }, [events, query])
 
   return (
-    <div className="card">
+    <div>
       <div className="row">
         <h2>Upcoming Events</h2>
-        <input placeholder="Search events..." value={query} onChange={(e)=>setQuery(e.target.value)} style={{maxWidth:320}} />
+        <input placeholder="Search events..." value={query} onChange={(e) => setQuery(e.target.value)} style={{ maxWidth: 320 }} />
       </div>
       <div className="game-grid">
         {filtered.map(ev => (
           <div key={ev.id} className="game-card">
-            <div className="thumb" style={{backgroundImage:`url(${ev.thumbnailUrl})`}} />
+            <div className="thumb" style={{ backgroundImage: `url(${ev.thumbnailUrl})` }} />
             <div className="game-body">
               <div className="game-title">{ev.title}</div>
               <div className="game-genre">{ev.game} • {ev.date} {ev.time}</div>

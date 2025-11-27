@@ -35,7 +35,7 @@ export default function Signup() {
   }
 
   return (
-    <div className="card">
+    <div className="auth-container">
       <h2>Signup</h2>
       <form onSubmit={handleSubmit} className="form grid">
         <label>First name

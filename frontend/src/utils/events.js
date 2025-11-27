@@ -24,7 +24,7 @@ export function seedDefaultEvents() {
       time: '18:00',
       prizePool: '$500',
       slots: 64,
-      thumbnailUrl: 'https://images.unsplash.com/photo-1605649487212-47bdab064df3?q=80&w=1200&auto=format&fit=crop',
+      thumbnailUrl: 'https://i.pinimg.com/736x/71/8b/d0/718bd02748429167b12b1b05a7e1da4f.jpg',
       description: '5v5 single-elimination tournament. Bring your best team and tactics.'
     },
     {
@@ -35,7 +35,7 @@ export function seedDefaultEvents() {
       time: '21:00',
       prizePool: '$150',
       slots: 32,
-      thumbnailUrl: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop',
+      thumbnailUrl: 'https://i.pinimg.com/736x/71/8b/d0/718bd02748429167b12b1b05a7e1da4f.jpg',
       description: '2v2 custom lobby mini-tournament.'
     },
     {
@@ -46,7 +46,7 @@ export function seedDefaultEvents() {
       time: '20:00',
       prizePool: '$800',
       slots: 32,
-      thumbnailUrl: 'https://images.unsplash.com/photo-1542751110-97427bbecf20?q=80&w=1200&auto=format&fit=crop',
+      thumbnailUrl: 'https://i.pinimg.com/1200x/1c/8f/ff/1c8fff7cd9222f1a694be5d4f2f4428d.jpg',
       description: 'Draft your comp and outplay your opponents in this best-of-one bracket.'
     },
     {
@@ -57,7 +57,7 @@ export function seedDefaultEvents() {
       time: '19:30',
       prizePool: '$200',
       slots: 40,
-      thumbnailUrl: 'https://images.unsplash.com/photo-1542751110-97427bbecf20?q=80&w=1200&auto=format&fit=crop',
+      thumbnailUrl: 'https://i.pinimg.com/1200x/1c/8f/ff/1c8fff7cd9222f1a694be5d4f2f4428d.jpg',
       description: 'All Random, All Mid fun bracket.'
     },
     {
@@ -68,7 +68,7 @@ export function seedDefaultEvents() {
       time: '16:00',
       prizePool: '$300',
       slots: 128,
-      thumbnailUrl: 'https://images.unsplash.com/photo-1551524164-99bf9713e31e?q=80&w=1200&auto=format&fit=crop',
+      thumbnailUrl: 'https://i.pinimg.com/1200x/76/f4/c1/76f4c19a466df5922af6fd5573bc7d5c.jpg',
       description: 'Compete in rapid matches. Climb the ladder and win rewards.'
     },
     {
@@ -79,7 +79,7 @@ export function seedDefaultEvents() {
       time: '17:00',
       prizePool: '$100',
       slots: 64,
-      thumbnailUrl: 'https://images.unsplash.com/photo-1518081461904-9ac672c86b8b?q=80&w=1200&auto=format&fit=crop',
+      thumbnailUrl: 'https://i.pinimg.com/1200x/76/f4/c1/76f4c19a466df5922af6fd5573bc7d5c.jpg',
       description: 'Quick-fire penalties, sudden death format.'
     },
     {
@@ -90,7 +90,7 @@ export function seedDefaultEvents() {
       time: '19:00',
       prizePool: '$1000',
       slots: 24,
-      thumbnailUrl: 'https://images.unsplash.com/photo-1606117331085-5760e3b58520?q=80&w=1200&auto=format&fit=crop',
+      thumbnailUrl: 'https://i.pinimg.com/736x/07/a9/2e/07a92e366310255ac71f995c4e215336.jpg',
       description: 'Speedrun event with special modifiers. Are you brave enough?'
     },
     {
@@ -101,7 +101,7 @@ export function seedDefaultEvents() {
       time: '19:00',
       prizePool: '$600',
       slots: 20,
-      thumbnailUrl: 'https://images.unsplash.com/photo-1606117331085-5760e3b58520?q=80&w=1200&auto=format&fit=crop',
+      thumbnailUrl: 'https://i.pinimg.com/736x/07/a9/2e/07a92e366310255ac71f995c4e215336.jpg',
       description: 'No-hit runs across selected bosses.'
     },
     {
@@ -112,7 +112,7 @@ export function seedDefaultEvents() {
       time: '18:30',
       prizePool: '$350',
       slots: 80,
-      thumbnailUrl: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1200&auto=format&fit=crop',
+      thumbnailUrl: 'https://i.pinimg.com/736x/ad/ea/d2/adead29662c0c8692980b37cbc6ca805.jpg',
       description: 'Climb the ladder, best-of-one series.'
     },
     {
@@ -123,7 +123,7 @@ export function seedDefaultEvents() {
       time: '20:30',
       prizePool: '$400',
       slots: 100,
-      thumbnailUrl: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop',
+      thumbnailUrl: 'https://i.pinimg.com/1200x/1e/7f/de/1e7fde6ab74c7b28cb99afdc7490110d.jpg',
       description: 'Solos with rotating modifiers.'
     },
     {
@@ -134,7 +134,7 @@ export function seedDefaultEvents() {
       time: '18:00',
       prizePool: '$250',
       slots: 48,
-      thumbnailUrl: 'https://images.unsplash.com/photo-1508341591423-4347099e1f19?q=80&w=1200&auto=format&fit=crop',
+      thumbnailUrl: 'https://i.pinimg.com/1200x/eb/98/01/eb9801fad72bfe4c2988a851edc89767.jpg',
       description: 'High-flying car soccer tournament.'
     },
     {
@@ -145,7 +145,7 @@ export function seedDefaultEvents() {
       time: '19:30',
       prizePool: '$500',
       slots: 40,
-      thumbnailUrl: 'https://images.unsplash.com/photo-1542751110-97427bbecf20?q=80&w=1200&auto=format&fit=crop',
+      thumbnailUrl: 'https://i.pinimg.com/1200x/1c/8f/ff/1c8fff7cd9222f1a694be5d4f2f4428d.jpg',
       description: 'Classic 5v5 tourney with bans and picks.'
     },
     {
@@ -156,7 +156,7 @@ export function seedDefaultEvents() {
       time: '19:00',
       prizePool: '$220',
       slots: 60,
-      thumbnailUrl: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop',
+      thumbnailUrl: 'https://i.pinimg.com/1200x/eb/98/01/eb9801fad72bfe4c2988a851edc89767.jpg',
       description: 'Trio arena tournament with escalating rounds.'
     },
     {
@@ -167,7 +167,7 @@ export function seedDefaultEvents() {
       time: '18:30',
       prizePool: '$280',
       slots: 96,
-      thumbnailUrl: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop',
+      thumbnailUrl: 'https://i.pinimg.com/1200x/1e/7f/de/1e7fde6ab74c7b28cb99afdc7490110d.jpg',
       description: 'Solo royale ladder with point system.'
     }
   ]

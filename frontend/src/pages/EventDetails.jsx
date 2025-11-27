@@ -37,16 +37,16 @@ export default function EventDetails() {
   }
 
   return (
-    <div className="card">
+    <div>
       <div className="row">
         <h2>{ev.title}</h2>
-        <button onClick={()=>navigate(-1)}>Back</button>
+        <button onClick={() => navigate(-1)}>Back</button>
       </div>
-      <div className="game-card" style={{gridTemplateRows:'240px auto', marginTop:12}}>
-        <div className="thumb" style={{backgroundImage:`url(${ev.thumbnailUrl})`}} />
+      <div className="game-card" style={{ gridTemplateRows: '240px auto', marginTop: 12 }}>
+        <div className="thumb" style={{ backgroundImage: `url(${ev.thumbnailUrl})` }} />
         <div className="game-body">
           <div className="game-genre">{ev.game} • {ev.date} {ev.time}</div>
-          <div className="game-desc" style={{height:'auto'}}>{ev.description}</div>
+          <div className="game-desc" style={{ height: 'auto' }}>{ev.description}</div>
           <div className="game-footer">
             <div className="rating">Prize: {ev.prizePool} • Slots: {ev.slots}</div>
             <button onClick={onToggle}>{registered ? 'Unregister' : 'Register'}</button>

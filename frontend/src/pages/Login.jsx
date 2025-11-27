@@ -26,7 +26,7 @@ export default function Login() {
   }
 
   return (
-    <div className="card">
+    <div className="auth-container">
       <h2>Login</h2>
       <form onSubmit={handleSubmit} className="form">
         <label>Email
